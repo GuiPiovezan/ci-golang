@@ -7,10 +7,10 @@ jobs:
     steps:
       ## Rodando uma action para configurar o ambiente de execução
       - uses: actions/checkout@v2 ## Baixa os arquivos do repositório para o ambiente de execução
-      - name: Set up Go 1.18
-        uses: actions/setup-go@v2 ## Configura o ambiente de execução para usar a versão 1.18 do Go
+      - name: Set up Go 1.22.5
+        uses: actions/setup-go@v2 ## Configura o ambiente de execução para usar a versão 1.22.5 do Go
         with:
-          go-version: 1.18
+          go-version: 1.22.5
       ## Executando os comandos para construir e testar a aplicação
       - name: Build and test
         run: |
