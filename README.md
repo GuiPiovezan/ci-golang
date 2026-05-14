@@ -1,1 +1,1 @@
-# ci-golang
+# Repositório com o objetivo de criar uma pipeline de integração contínua usando Github Actions e Go
